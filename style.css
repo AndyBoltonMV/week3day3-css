@@ -1,8 +1,28 @@
+@font-face {
+  font-family: "purple-smile";
+  src: url("./assets/PurpleSmile.otf") format("otf");
+}
+
 body {
   display: flex;
   justify-content: space-evenly;
-  background-color: black;
+  background-color: #202020;
   color: white;
+  height: 100vh;
+  width: 100vw;
+  font-family: "purple-smile";
+}
+
+header {
+  width: 33%;
+}
+
+nav {
+  width: 100%;
+}
+
+ul {
+  width: 100%;
 }
 
 li {
@@ -10,7 +30,7 @@ li {
 }
 
 a {
-  font-size: 2vw;
+  font-size: 20%;
   text-decoration: none;
   color: white;
 }
@@ -42,6 +62,6 @@ img {
 .soft-box {
   background-color: grey;
   border-radius: 5%;
-  padding: 2px;
+  padding-left: 2px;
   margin: 2px;
 }
