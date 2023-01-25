@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+}
+
+li {
+  margin-top: 1vw;
+}
+
+a {
+  font-size: 2vw;
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  border: 1px solid grey;
+}
+
+article {
+  border: 1px solid grey;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+  padding: 1vw;
+}
+
+article :last-child {
+  grid-area: 2 / 1 / 2 / 4;
+}
+
+img {
+  position: relative;
+  width: 5vw;
+  left: 15px;
+  top: 10px;
+  border-radius: 50%;
+}
+
+.soft-box {
+  background-color: grey;
+  border-radius: 5%;
+  padding: 2px;
+  margin: 2px;
+}
